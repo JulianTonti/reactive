@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module">
+      import widget from './widget.js';
+      const w = new widget(document.body);
+      console.log(w);
+      //document.body.appendChild(w.parent);
+      const p = w.proxy.repeat;
+      //setInterval(() => p.value = Math.round(p.min + Math.random() * (p.max - p.min)), 10);
+    </script>
+  </head>
+  <body></body>
+</html>
